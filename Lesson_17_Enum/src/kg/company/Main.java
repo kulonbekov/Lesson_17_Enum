@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         for (ChemicalElements s: ChemicalElements.values())
-            System.out.println("Названия: " + s.getName() + ", Атомный номер:" + s.getAtomNumber());
+            System.out.println("Названия: " + s.getName() + ", атомный номер:" + s.getAtomNumber());
 
 
     }
